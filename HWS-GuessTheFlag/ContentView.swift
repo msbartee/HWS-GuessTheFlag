@@ -20,6 +20,10 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack(spacing: 30) {
                 VStack {
+                    Text("Score: \(score)")
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                    
                     Text("Tap the flag of")
                         .foregroundColor(.white)
 
